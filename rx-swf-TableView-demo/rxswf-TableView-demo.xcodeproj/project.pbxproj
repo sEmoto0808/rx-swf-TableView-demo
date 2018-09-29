@@ -20,6 +20,7 @@
 		A25AB49A215E1E6500F71A51 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25AB499215E1E6500F71A51 /* RxDataSources.framework */; };
 		A2AB88E9215E22550062E5AF /* RxTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB88E8215E22550062E5AF /* RxTableViewModel.swift */; };
 		A2AB88EC215E258B0062E5AF /* RxTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB88EB215E258B0062E5AF /* RxTableViewPresenter.swift */; };
+		A2F01347215FB8620013E11B /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F01346215FB8620013E11B /* Differentiator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A25AB499215E1E6500F71A51 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		A2AB88E8215E22550062E5AF /* RxTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewModel.swift; sourceTree = "<group>"; };
 		A2AB88EB215E258B0062E5AF /* RxTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewPresenter.swift; sourceTree = "<group>"; };
+		A2F01346215FB8620013E11B /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
 		A316322A2B6FA8C9A323025C /* Pods-rxswf-TableView-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswf-TableView-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-rxswf-TableView-demo/Pods-rxswf-TableView-demo.release.xcconfig"; sourceTree = "<group>"; };
 		BE048598023CB1174F5E0384 /* Pods_rxswf_TableView_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswf_TableView_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F01347215FB8620013E11B /* Differentiator.framework in Frameworks */,
 				A25AB49A215E1E6500F71A51 /* RxDataSources.framework in Frameworks */,
 				A25AB498215E1E5200F71A51 /* RxCocoa.framework in Frameworks */,
 				A25AB496215E1E4300F71A51 /* RxSwift.framework in Frameworks */,
@@ -161,6 +164,7 @@
 		DCA5EDAB6DFE0514DDF2FEEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2F01346215FB8620013E11B /* Differentiator.framework */,
 				A25AB499215E1E6500F71A51 /* RxDataSources.framework */,
 				A25AB497215E1E5200F71A51 /* RxCocoa.framework */,
 				A25AB495215E1E4300F71A51 /* RxSwift.framework */,
@@ -317,6 +321,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
 			);
 			outputFileListPaths = (
 			);
