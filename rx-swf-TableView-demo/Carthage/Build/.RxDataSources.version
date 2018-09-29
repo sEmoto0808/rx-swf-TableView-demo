@@ -1,0 +1,13 @@
+{
+  "commitish" : "3.1.0",
+  "iOS" : [
+    {
+      "name" : "Differentiator",
+      "hash" : "61c0786359c29182dbe62b3feb74eed4e592d85686ec78e4eab08098bf7f5af0"
+    },
+    {
+      "name" : "RxDataSources",
+      "hash" : "ceb7b07f0e175c829734103545ed6bf990301c187ea72ba8be6c388c74445b52"
+    }
+  ]
+}
